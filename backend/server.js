@@ -8,7 +8,7 @@ app.get("/api/products", (req, res) => {
 });
 
 // let port = process.env.PORT || 5000;
-let port = 3000;
+let port = 3001;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
